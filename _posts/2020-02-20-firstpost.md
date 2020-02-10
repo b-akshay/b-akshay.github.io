@@ -9,7 +9,7 @@ First, note that for all $z \in \mathcal{P}$ within the support of $\mu_{\mathca
 we have $\frac{P^n (z)}{\mu_{\mathcal{P}} (z)} = \text{Pr} (Z \in \mathcal{P})$. 
 Therefore, 
 $$
--\ln \text{Pr} (Z \in \mathcal{P})
+\ln \text{Pr} (\frac{1}{Z \in \mathcal{P}})
 = \frac{ \mathbb{E}_{Z \sim P^n} [ - \ln \text{Pr} (Z \in \mathcal{P}) \mathbf{1} (Z \in \mathcal{P}) ] }{\text{Pr} (Z \in \mathcal{P})} \\
 = \frac{ \mathbb{E}_{Z \sim P^n} [ \ln \frac{\mu_{\mathcal{P}} (Z)}{P^n (Z)} \mathbf{1} (Z \in \mathcal{P}) ] }{\text{Pr} (Z \in \mathcal{P})} \nonumber \\
 = \mathbb{E}_{Z \sim \mu_{\mathcal{P}} } [ \ln \frac{\mu_{\mathcal{P}} (Z)}{P^n (Z)} ] \\
