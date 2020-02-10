@@ -5,3 +5,6 @@
 
 ## Section
 
+$$
+\sum_n (x)
+$$
